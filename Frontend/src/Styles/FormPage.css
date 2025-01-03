@@ -1,0 +1,83 @@
+/* Set background and center form */
+.form-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative; /* Ensure elements inside can be positioned absolutely */
+    background: transparent linear-gradient(180deg, #C7EBF9 0%, #D5F3FF 67%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+    overflow: hidden; /* Prevent images from extending outside the container */
+  }
+  
+  /* Position the top background image */
+  .back2 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1; /* Ensure it's behind the form */
+    width: 100%; /* Adjust the width as needed */
+  }
+  
+  /* Position the bottom background image */
+  .back1 {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1; /* Ensure it's behind the form */
+    width: 100%; /* Adjust the width as needed */
+  }
+  
+  /* Style the form card */
+  .form-card {
+    z-index: 2; /* Ensure the form is on top of the images */
+    margin: 87px 20px 84px 20px;
+    width: 100%;
+    max-width: 375px; /* Match mobile screen width */
+    background-color: white;
+    padding: 10px 15px 24px 15px;
+    border-radius: 12px;
+    text-align: center;
+    height: 610px;
+    font-family: 'Excon';
+    position: relative; /* To make sure it's above background images */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow to lift the form above the background */
+  }
+  
+  /* Heading styles */
+  .form-card h3 {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+  
+  .form-card p {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 24px;
+  }
+  
+  /* Custom text field styles */
+  .custom-textfield {
+    margin-bottom: 16px; /* Set the gap between fields */
+  }
+  
+  .custom-textfield input {
+    height: 48px; /* Set the height of input */
+    padding: 0 14px; /* Adjust padding to make the label fit inside */
+  }
+  
+  /* Submit button custom styles */
+  .submit-button {
+    margin-top: 35px;
+    font-size: 14px;
+    text-transform: none;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #1D78EC;
+  }
+  
+  .submit-button:hover {
+    background-color: #2b6cb0;
+  }
+  

@@ -1,0 +1,41 @@
+.Finish-div
+{
+    height: 100%;
+    background-size: 100% 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../assets/images/Finish.png');
+}
+
+.total-div
+{
+    height: 30%;
+    width: 80%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.formsub
+{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+.video
+{
+    mix-blend-mode: multiply;
+    opacity: 1;
+    top: 313px;
+left: 116px;
+width: 139px;
+height: 139px;
+}

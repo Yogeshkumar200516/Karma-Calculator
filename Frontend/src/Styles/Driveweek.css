@@ -1,0 +1,392 @@
+*{
+    font-family: "Sarabun", sans-serif;
+}
+
+.Drive-week
+{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: space-between;
+    background-size:  100% 47%;
+    background-image: url('../assets/images/Drive.png');
+}
+
+
+.Electirict-week
+{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    align-items: end;
+    justify-content: space-between;
+    background-size:  100% 47%;
+    background-image: url('../assets/images/Electricity.png');
+}
+
+
+.Vehcile-Img
+{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    align-items: end;
+    justify-content: space-between;
+    background-size:  100% 47%;
+    background-image: url('../assets/images/vehicles.png');
+}
+
+.Fuel-Img
+{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    align-items: end;
+    justify-content: space-between;
+    background-size:  100% 47%;
+    background-image: url('../assets/images/Fuelback.png');
+}
+
+
+.Food-Img
+{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    align-items: end;
+    justify-content: space-between;
+    background-size:  100% 47%;
+    background-image: url('../assets/images/foodback.png');
+}
+
+.Appliance-Img
+{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    align-items: end;
+    justify-content: space-between;
+    background-size:  100% 47%;
+    background-image: url('../assets/images/appbg.png');
+}
+
+
+.Page-3
+{   
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    align-items: end;
+    justify-content: space-between;
+    background-size:  100% 47%;
+    background-image: url('../assets/images/vehicles.png');
+}
+
+.Drive-Box
+{
+    height: 57%;
+    border-radius: 30px 30px 0px 0px;
+    width: 100%;
+    z-index: 10;
+    background-color: #ffffff;
+}
+
+.Drive-circle
+{
+    height: 12%;
+    position: relative;
+    /* background-color: rebeccapurple; */
+    width: 100%;
+}
+
+
+input[type="range"]:focus {
+    outline: none;
+  }
+
+
+
+  .custom-progress {
+    color: red !important; /* Use !important to override existing styles */
+  }
+  .Page-Heder
+  {
+    width: 100%;
+    gap: 1%;
+    /* background-color: rgb(255, 0, 174); */
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.Readings
+{
+    height: 100%;
+    display: flex;
+    font-weight: 700;
+    align-items: center;
+}
+.trianglebox
+{
+    height: 100%;
+    display: flex;
+    align-items: center;   
+}
+
+
+
+.triangle {
+    --r:2px; /* border radius */
+    width: 20px;
+    aspect-ratio: 1/cos(30deg);
+    --_g:calc(tan(60deg)*var(--r)) bottom var(--r),#000 98%,#0000 101%;
+    -webkit-mask:
+      conic-gradient(from -30deg at 50% calc(200% - 3*var(--r)/2),#000 60deg,#0000 0)
+       0 100%/100% calc(100% - 3*var(--r)/2) no-repeat,
+      radial-gradient(var(--r) at 50% calc(2*var(--r)),#000 98%,#0000 101%),
+      radial-gradient(var(--r) at left  var(--_g)),
+      radial-gradient(var(--r) at right var(--_g));
+    clip-path: polygon(50% 0,100% 100%,0 100%);
+    background:#DF2929;
+  }
+.pecentage-circle
+{
+    width: 75px;
+    border-radius: 50%;
+    padding: 1.5%;
+    display: flex;
+    height: 75px;
+    position: absolute;
+    top: -60%;
+    left:42%;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.Drive-Head
+{
+    /* background-color: yellow; */
+    width: 100%;
+    text-align: center;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    background-color: #e7eefa;
+    border-radius: 0.5rem;
+    height: 0.2rem;
+  }
+  
+
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    appearance: none;
+    margin-top: -6px; 
+    background-color: #247ded;
+    border-radius: 1.5rem;
+    height: 1.2rem;
+    width: 1.2rem;
+  }
+
+  input[type="range" i] 
+  {
+    margin: 0px;
+  }
+  
+  input[type="range"]:focus::-webkit-slider-thumb {
+    outline: 3px solid #247ded;
+    outline-offset: 0.125rem;
+  }
+
+.Drive-Slide
+{
+    display: flex;
+    height: 15%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aquamarine; */
+}
+.rangesie
+{
+    height: 70%;
+    display: flex;
+    align-items: center;
+    width: 87%;
+}
+
+.driverange
+{
+    width: 100%;
+}
+.rangeside
+{
+    height: 50%;
+    background-color: #247ded;
+    width: 5px;
+    border-radius: 50px;
+}
+
+
+.Drive-reange
+{
+    height: 5%;
+    width: 100%;
+    /* background-color: darkcyan; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.rangebarval
+{
+    height: 100%;
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    font-weight: 1000;
+    font-size: 0.8rem;
+    align-items: center;
+    /* background-color: yellow; */
+}
+
+.Drive-sppedbox
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    /* background-color: darkmagenta; */
+}
+
+.speedbox
+{
+    width: 18%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFF4E4;
+    color: #FF980E;
+    font-size: 1rem;
+    align-items: center;
+    border-radius: 5px;
+    height: 50%;
+    /* background-color: red; */
+}
+
+.emptypage
+{
+    /* background-color: pink; */
+    width: 100%;
+    height: 28%;
+}
+
+.Drivebuttoncon
+{
+    height: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    /* background-color: magenta; */
+}
+
+.drivebuuton
+{
+    height: 60%;
+    width: 42%;
+    border-radius: 10px;
+    /* background-color: red; */
+}
+
+.Drive-back
+{
+    width: 100%;
+    background-color: #e0ebf9;
+    color: #1d78ec;
+    font-weight: 600;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0px  4px 8px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+.Drive-next
+{
+    width: 100%;
+    height: 100%;
+    border: none;
+    color: #deeaf9;
+    font-weight: 600;
+    box-shadow: 0px  4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #1d78ec;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+.Electricitybut{
+    height: 70%;
+    /* background-color: red; */
+    width: 80%;
+
+}
+
+.vehicrangebarval
+{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    font-weight: 1000;
+    font-size: 0.8rem;
+    align-items: center;
+    /* background-color: yellow; */
+}
+
+
+
+/* nithis00 */
+
+.totalgrid
+{
+    height:60%;
+    /* background-color: red; */
+        align-items: center;
+        display: grid;
+        place-items: center;
+    width: 100%;
+}

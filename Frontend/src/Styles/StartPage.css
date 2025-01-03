@@ -1,0 +1,89 @@
+.start-container {
+    height: 100%;
+    background-color: #F0F4FA;
+}
+
+.heading-text {
+ 
+    background-image: url('../assets/images/back1.png'); /* Replace with the actual image path */
+    background-size: cover; /* Scale the image to cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+}
+
+.heading-text h2 {
+    height: 54px;
+    padding-left: 54px;
+    padding-right: 54px;
+    padding-top: 190px;
+    font-size: 20px;
+    padding-bottom: 44px;
+    font-family: 'Excon';
+    color: #0E70EB;
+    opacity: 100%;
+    text-align: center;
+}
+
+.main-grid {
+    background-color: white;
+    height: 369px;
+    border-radius: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -20px;
+}
+
+.main-contents {
+    padding: 24px 19.5px 24px 19.5px;
+}
+
+.main-content {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    height: 61px;
+    display: flex;
+}
+
+.contents {
+    margin-left: 10px;
+    width: 230px;
+}
+
+.contents h3 {
+    height: 6px;
+    font-size: 12px;
+    font-family: 'Excon';
+    align-items: left;
+    margin-top: 0px;
+    color: #030911;
+}
+
+.contents p {
+    font-size: 10px;
+    font-family: 'Excon';
+    align-items: left;
+    margin-top: 15px;
+    color: #60666F;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Space out the buttons */
+    margin-top: 50px; /* Space above the buttons */
+}
+
+.custom-button {
+    border: none; /* Remove default border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for the button */
+    font-family: 'Excon'; /* Same font as the other elements */
+    font-size: 12px; /* Font size */
+    cursor: pointer; /* Change cursor on hover */
+    width: 48%; /* Width of the button */
+}
+
+.custom-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+

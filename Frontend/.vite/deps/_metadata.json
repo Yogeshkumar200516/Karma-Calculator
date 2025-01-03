@@ -1,0 +1,58 @@
+{
+  "hash": "51950a3a",
+  "configHash": "7eeb9355",
+  "lockfileHash": "0243be34",
+  "browserHash": "51a7f919",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "d4c28d8b",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "d9cc12e6",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "4e463113",
+      "needsInterop": false
+    },
+    "@mui/joy/CircularProgress": {
+      "src": "../../node_modules/@mui/joy/CircularProgress/index.js",
+      "file": "@mui_joy_CircularProgress.js",
+      "fileHash": "d9dda75d",
+      "needsInterop": false
+    },
+    "@mui/joy/Box": {
+      "src": "../../node_modules/@mui/joy/Box/index.js",
+      "file": "@mui_joy_Box.js",
+      "fileHash": "dde3ff30",
+      "needsInterop": false
+    },
+    "@mui/joy/Typography": {
+      "src": "../../node_modules/@mui/joy/Typography/index.js",
+      "file": "@mui_joy_Typography.js",
+      "fileHash": "e20aa181",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-QPG7G3M7": {
+      "file": "chunk-QPG7G3M7.js"
+    },
+    "chunk-T2CN632S": {
+      "file": "chunk-T2CN632S.js"
+    },
+    "chunk-XVQSZYDQ": {
+      "file": "chunk-XVQSZYDQ.js"
+    },
+    "chunk-UTEJFLXC": {
+      "file": "chunk-UTEJFLXC.js"
+    }
+  }
+}
