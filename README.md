@@ -27,10 +27,6 @@ With this data, it visualizes the **calculated carbon footprint** using an inter
 
 ---
 
-## 🌐 Live Project
-
-👉 Visit: **[www.jaisakthipapers.com](https://www.jaisakthipapers.com)**
-
 ---
 
 ## 🛠️ Tech Stack
