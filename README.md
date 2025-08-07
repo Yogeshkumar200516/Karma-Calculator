@@ -87,7 +87,7 @@ With this data, it visualizes the **calculated carbon footprint** using an inter
 
 ```bash
 # Clone the Repository
-git clone https://github.com/yourusername/Karma-Calculator.git
+git clone https://github.com/Yogeshkumar200516/Karma_Calculator.git
 
 # Navigate to Frontend
 cd Frontend
