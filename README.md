@@ -64,21 +64,20 @@ With this data, it visualizes the **calculated carbon footprint** using an inter
 ### 🏠 Home Page
 ![Home](./Frontend/src/assets/images/GIT1.png)
 
-### 📈 Carbon Emission Graph
 ![Carbon Graph](./Frontend/src/assets/images/GIT2.png)
 
-### 💡 Suggestions for Improvement
 ![Suggestions](./Frontend/src/assets/images/GIT3.png)
 
-### 📝 Tree Plantation Request Form
 ![Form](./Frontend/src/assets/images/GIT4.png)
-
-### 📱 Mobile Views
 ![Mobile View](./Frontend/src/assets/images/GIT5.png)
 ![Mobile View](./Frontend/src/assets/images/GIT6.png)
 ![Carbon Graph](./Frontend/src/assets/images/GIT7.png)
 ![Suggestions](./Frontend/src/assets/images/GIT8.png)
+
+### 📈 Carbon Emission Graph
 ![Form](./Frontend/src/assets/images/GIT9.png)
+
+### 📝 Tree Plantation Request Form
 ![Mobile View](./Frontend/src/assets/images/GIT10.png)
 ![Mobile View](./Frontend/src/assets/images/GIT11.png)
 
